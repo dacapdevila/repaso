@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    Usando Grids
+  </title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+<h2>Usando Grid</h2>
+<p>En este ejemplo, hemos creado un encabezado, tres columnas iguales y un pie de página. En pantallas más pequeñas, las columnas se apilarán una encima de la otra.</p>
+<p>Cambie el tamaño de la ventana del navegador para ver el efecto de respuesta.</p>
+
+<div class="grid-container">
+  <header class="header">
+    <div class="">
+      <h2>Header</h2>
+    </div>
+  </header>
+  
+  <main class="content grid-container-2">
+    <div class="left" style="background-color:#aaa;">Column</div>
+    <div class="middle" style="background-color:#bbb;">Column</div>  
+    <div class="right" style="background-color:#ccc;">Column</div>
+  </main>
+  
+  <footer class="footer">
+    <div class="">
+      <p>Footer</p>
+    </div>
+  </footer>
+</div>
+
+</body>
+</html>
